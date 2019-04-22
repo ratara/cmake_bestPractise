@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ralf/Dokumente/cmake/ModuleA/ModuleA.cpp
+ModuleA.h
+/home/ralf/Dokumente/cmake/ModuleA/ModuleA.h
+ModuleB.h
+/home/ralf/Dokumente/cmake/ModuleA/ModuleB.h
+
+/home/ralf/Dokumente/cmake/ModuleA/ModuleA.h
+
+ModuleB/ModuleB.h
+string
+-
+
