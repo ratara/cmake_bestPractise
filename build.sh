@@ -1,4 +1,6 @@
-mkdir -p build
-cd build
+#!/bin/bash
+
+mkdir -p _build
+cd _build
 cmake ..
 make install
